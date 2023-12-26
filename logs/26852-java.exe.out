@@ -1,0 +1,41 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 778milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 778"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55370"}
+{"logLevel":"info","message":"Listening on port:55370"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.bekle' and 'step.StepImplementation.bekle'"}
+{"logLevel":"debug","message":"Found 1 sn bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found click on the {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.xd' and 'step.StepImplementation.xd'"}
+{"logLevel":"debug","message":"Found naber {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementine tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tclick on the {} element : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tnaber {} : public void xd(String as)"}
+{"logLevel":"debug","message":"\t1 sn bekle : public void bekle() throws InterruptedException"}
+
+
+Haz 18, 2023 11:57:46 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 8007
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+
+
+
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,80 @@
+
+# Gidiş-dönüş seçeneğine tıkla
+* "1" saniye bekle
+* "[data-testid='search-round-trip-text']" elementine css ile tıkla
+* "1" saniye bekle
+
+# Nereden inputuna <Nereden> text'ini gir
+* "[data-testid='endesign-flight-origin-autosuggestion-input']" elementine <Nereden> değerini css ile yaz
+* "1" saniye bekle
+
+# Nereye inputuna <Nereye> text'ini gir
+* "[data-testid='endesign-flight-destination-autosuggestion-input']" elementine <Nereye> değerini css ile yaz
+* "1" saniye bekle
+
+# Ucuz bilet bul butonuna tıkla
+* "[data-testid='enuygun-homepage-flight-submitButton']" elementine css ile tıkla
+* "4" saniye bekle
+
+# Gidiş kalkış / varış saatleri menüsüne tıkla
+* "[class='ctx-filter-departure-return-time card-header']" elementine css ile tıkla
+* "1" saniye bekle
+
+# Kalkış saatini 10:00 - 18:00 arasında olacak şekilde ayarla
+* Hold and Release İşlemi "[data-testid='departureDepartureTimeSlider'] [class='rc-slider-handle rc-slider-handle-2']" elementi, xOffset="-60", yOffset="0" ofset ile hareket ettir
+* "1" saniye bekle
+* Hold and Release İşlemi "[data-testid='departureDepartureTimeSlider'] [class='rc-slider-handle rc-slider-handle-1']" elementi, xOffset="100", yOffset="0" ofset ile hareket ettir
+* "1" saniye bekle
+
+# Yolcu sayısı, Kabin menüsüne tıkla
+* "[data-testid='undefined-popover-button']" elementine css ile tıkla
+* "1" saniye bekle
+
+# Uçak sınıfını <UcakSinifi> olarak seç
+* "[class='sc-dLMFU TjGFj cabinClassBtn '] div" css'li elementinin liste içerisinde text değeri <UcakSinifi> değerine tıkla
+
+# Yetişkin sayısını <YolcuSayi> kadar artır
+* "[data-testid='flight-adult-counter-plus-button']" Parametre olarak alınan sayı kadar click yap: <YolcuSayi>
+* "1" saniye bekle
+
+# Çocuk sayısını <YolcuSayi> kadar artır
+* "[data-testid='flight-child-counter-plus-button']" Parametre olarak alınan sayı kadar click yap: <YolcuSayi>
+* "1" saniye bekle
+
+# Bebek sayısını <YolcuSayi> kadar artır
+* "[data-testid='flight-infant-counter-plus-button']" Parametre olarak alınan sayı kadar click yap: <YolcuSayi>
+* "1" saniye bekle
+
+# Gidiş tarihini ayın 30'u olarak seç
+* "[data-testid='enuygun-homepage-flight-departureDate-datepicker-input']" elementine css ile tıkla
+* "1" saniye bekle
+* "[data-day='30']" elementine css ile tıkla
+* "1" saniye bekle
+
+# Dönüş tarihini ayın 31'i olarak seç
+* "[data-testid='enuygun-homepage-flight-returnDate-datepicker-input']" elementine css ile tıkla
+* "1" saniye bekle
+* "[data-day='31']" elementine css ile tıkla
+* "1" saniye bekle
+
+# Daha fazla filtresinden kalkış erkenden geçe olarak seç
+* "[data-testid='otherButtons']" elementine css ile tıkla
+* "1" saniye bekle
+* "[data-testid='option0']" elementine css ile tıkla
+* "1" saniye bekle
+
+# İlk uçak kalkış saatinin 10:00'dan geç olduğu kontrolü
+* "[data-testid='departureTime']" kalkış saatinin 10:00'dan geç olduğu kontrol et
+* "1" saniye bekle
+
+# Hava yolları filtre menüsüne tıkla
+* "[class='ctx-filter-airline card-header']" elementine css ile tıkla
+* "1" saniye bekle
+
+# Hava yolları filtresinden THY seç
+* "[for='TKairlines']" elementine css ile tıkla
+* "2" saniye bekle
+
+# Thy uçuşlarında fiyatların artan şekilde sıralandığı kontrolü
+* "[class='money-int']" element listesindeki element değerlerinin artan şekilde sıralandığını karşılaştır
+* "1" saniye bekle

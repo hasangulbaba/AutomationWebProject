@@ -1,0 +1,141 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 312milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 312"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59404"}
+{"logLevel":"info","message":"Listening on port:59404"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.holdAndReleaseElement' and 'step.StepImplementation.holdAndReleaseElement'"}
+{"logLevel":"debug","message":"Found Hold and Release İşlemi {} elementi, xOffset={}, yOffset={} ofset ile hareket ettir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElementWithId' and 'step.StepImplementation.sendKeysElementWithId'"}
+{"logLevel":"debug","message":"Found {} elementine {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElementWithId' and 'step.StepImplementation.sendKeysElementWithId'"}
+{"logLevel":"debug","message":"Found {} element send {} text in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementText' and 'step.StepImplementation.getElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin text değeri {} değerine eşit mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementText' and 'step.StepImplementation.getElementText'"}
+{"logLevel":"debug","message":"Found Is the text value of {} element is equal to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementXpath' and 'step.StepImplementation.clickElementXpath'"}
+{"logLevel":"debug","message":"Found {} xpath li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElementXpath'"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementXpath' and 'step.StepImplementation.clickElementXpath'"}
+{"logLevel":"debug","message":"Found click {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElementWithCss' and 'step.StepImplementation.sendKeysElementWithCss'"}
+{"logLevel":"debug","message":"Found {} elementine {} değerini css ile yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElementWithId' and 'step.StepImplementation.sendKeysElementWithCss'"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElementWithCss' and 'step.StepImplementation.sendKeysElementWithCss'"}
+{"logLevel":"debug","message":"Found {} element send {} text in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clearElement' and 'step.StepImplementation.clearElement'"}
+{"logLevel":"debug","message":"Found {} elementinin değerini temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clearElement' and 'step.StepImplementation.clearElement'"}
+{"logLevel":"debug","message":"Found clear the value of {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementWithCssSelector' and 'step.StepImplementation.clickElementWithCssSelector'"}
+{"logLevel":"debug","message":"Found {} elementine css ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementWithCssSelector' and 'step.StepImplementation.clickElementWithCssSelector'"}
+{"logLevel":"debug","message":"Found click on the {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} id li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElement' and 'step.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found click {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementListTextCssClick' and 'step.StepImplementation.getElementListTextCssClick'"}
+{"logLevel":"debug","message":"Found {} css'li elementinin liste içerisinde text değeri {} değerine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementListTextXpathClick' and 'step.StepImplementation.getElementListTextCssClick'"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementListTextCssClick' and 'step.StepImplementation.getElementListTextCssClick'"}
+{"logLevel":"debug","message":"Found Is the text value of {} search in the element list is click to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementListTextXpathClick' and 'step.StepImplementation.getElementListTextXpathClick'"}
+{"logLevel":"debug","message":"Found {} xpathli elementinin liste içerisinde text değeri {} değerine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementListTextXpathClick' and 'step.StepImplementation.getElementListTextXpathClick'"}
+{"logLevel":"debug","message":"Found Is the text value of {} search in the element list is click to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.navigateToBack' and 'step.StepImplementation.navigateToBack'"}
+{"logLevel":"debug","message":"Found Geriye git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.navigateToBack' and 'step.StepImplementation.navigateToBack'"}
+{"logLevel":"debug","message":"Found Navigate to back in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementine css ile tıkla : public void clickElementWithCssSelector(String key)"}
+{"logLevel":"debug","message":"\tIs the text value of {} element is equal to {} : public void getElementText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tclear the value of {} element : public void clearElement(String key)"}
+{"logLevel":"debug","message":"\t{} xpathli elementinin liste içerisinde text değeri {} değerine tıkla : public void getElementListTextXpathClick(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} css'li elementinin liste içerisinde text değeri {} değerine tıkla : public void getElementListTextCssClick(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementine {} değerini css ile yaz : public void sendKeysElementWithCss(String key, String text)"}
+{"logLevel":"debug","message":"\tHold and Release İşlemi {} elementi, xOffset={}, yOffset={} ofset ile hareket ettir : public void holdAndReleaseElement(String elementId, int xOffset, int yOffset)"}
+{"logLevel":"debug","message":"\t{} elementine {} değerini yaz : public void sendKeysElementWithId(String key, String text)"}
+{"logLevel":"debug","message":"\tIs the text value of {} search in the element list is click to {} : public void getElementListTextXpathClick(String key, String expectedText)"}
+{"logLevel":"debug","message":"\twait {} seconds : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\t{} xpath li elemente tıkla : public void clickElementXpath(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin değerini temizle : public void clearElement(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\t{} id li elemente tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tNavigate to back : public void navigateToBack()"}
+{"logLevel":"debug","message":"\tclick on the {} element : public void clickElementWithCssSelector(String key)"}
+{"logLevel":"debug","message":"\t{} element send {} text : public void sendKeysElementWithId(String key, String text)"}
+{"logLevel":"debug","message":"\tclick {} element : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text değeri {} değerine eşit mi : public void getElementText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tGeriye git : public void navigateToBack()"}
+
+
+
+
+Starting OperaDriver 119.0.6045.124 (358b60139a703ea4f1ce83a30da9401aa3e96a92-refs/branch-heads/6045@{#1232}) on port 12276
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping OperaDriver safe.
+OperaDriver was started successfully.
+[1703370273.289][WARNING]: This version of OperaDriver has not been tested with Opera version 120.
+Dec 24, 2023 1:24:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine css ile tıkla' using 'class step.StepImplementation.clickElementWithCssSelector"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine {} değerini css ile yaz' using 'class step.StepImplementation.sendKeysElementWithCss"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine {} değerini css ile yaz' using 'class step.StepImplementation.sendKeysElementWithCss"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine css ile tıkla' using 'class step.StepImplementation.clickElementWithCssSelector"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine css ile tıkla' using 'class step.StepImplementation.clickElementWithCssSelector"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing 'Hold and Release İşlemi {} elementi, xOffset={}, yOffset={} ofset ile hareket ettir' using 'class step.StepImplementation.holdAndReleaseElement"}
+
+
+
+
+
+
+
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

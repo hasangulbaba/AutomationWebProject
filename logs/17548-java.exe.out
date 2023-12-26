@@ -1,0 +1,133 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1009milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1009"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64697"}
+{"logLevel":"info","message":"Listening on port:64697"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.doesUrlEqual' and 'step.StepImplementation.doesUrlEqual'"}
+{"logLevel":"debug","message":"Found Şu anki url {} ile aynı mı in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.doesUrlEqual' and 'step.StepImplementation.doesUrlEqual'"}
+{"logLevel":"debug","message":"Found Is current url same with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementText' and 'step.StepImplementation.getElementText'"}
+{"logLevel":"debug","message":"Found {} elementinin text değeri {} değerine eşit mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementText' and 'step.StepImplementation.getElementText'"}
+{"logLevel":"debug","message":"Found Is the text value of {} element is equal to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.waitBySeconds' and 'step.StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sekmeKapat' and 'step.StepImplementation.sekmeKapat'"}
+{"logLevel":"debug","message":"Found Sekmeyi kapat in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sekmeKapat' and 'step.StepImplementation.sekmeKapat'"}
+{"logLevel":"debug","message":"Found Close tab in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clearElement' and 'step.StepImplementation.clearElement'"}
+{"logLevel":"debug","message":"Found {} elementinin değerini temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clearElement' and 'step.StepImplementation.clearElement'"}
+{"logLevel":"debug","message":"Found clear the value of {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElement' and 'step.StepImplementation.sendKeysElement'"}
+{"logLevel":"debug","message":"Found {} elementine {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysElement' and 'step.StepImplementation.sendKeysElement'"}
+{"logLevel":"debug","message":"Found on {} element write {} value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementTextFindTextClick' and 'step.StepImplementation.getElementTextFindTextClick'"}
+{"logLevel":"debug","message":"Found {} elementininde {} text değerini taşıyan elementi bul tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementTextFindTextClick' and 'step.StepImplementation.getElementTextFindTextClick'"}
+{"logLevel":"debug","message":"Found On {} element find the element with {} value and click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementWithCssSelector' and 'step.StepImplementation.clickElementWithCssSelector'"}
+{"logLevel":"debug","message":"Found {} elementine css ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementWithCssSelector' and 'step.StepImplementation.clickElementWithCssSelector'"}
+{"logLevel":"debug","message":"Found click on the {} element in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementTextFindTextContains' and 'step.StepImplementation.getElementTextFindTextContains'"}
+{"logLevel":"debug","message":"Found {} elementininde {} text değerini taşıyan elementi bul  değerine eşit mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.getElementTextFindTextContains' and 'step.StepImplementation.getElementTextFindTextContains'"}
+{"logLevel":"debug","message":"Found On {} element find the element with {} value in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.clickElementWithId' and 'step.StepImplementation.clickElementWithId'"}
+{"logLevel":"debug","message":"Found {} elementine id ile tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.sendKeysRandomFormatString' and 'step.StepImplementation.sendKeysRandomFormatString'"}
+{"logLevel":"debug","message":"Found {} elementine {} uzunluğunda text değeri oluştur {} değerini {} ekle yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.switchTab' and 'step.StepImplementation.switchTab'"}
+{"logLevel":"debug","message":"Found Sekme değiştir {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.switchTab' and 'step.StepImplementation.switchTab'"}
+{"logLevel":"debug","message":"Found Switch tab {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tIs the text value of {} element is equal to {} : public void getElementText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementine css ile tıkla : public void clickElementWithCssSelector(String key)"}
+{"logLevel":"debug","message":"\tIs current url same with {} : public void doesUrlEqual(String url)"}
+{"logLevel":"debug","message":"\t{} elementine id ile tıkla : public void clickElementWithId(String key)"}
+{"logLevel":"debug","message":"\tclear the value of {} element : public void clearElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} değerini yaz : public void sendKeysElement(String key, String text)"}
+{"logLevel":"debug","message":"\tSwitch tab {} : public void switchTab(ınt switchTabNumber)"}
+{"logLevel":"debug","message":"\tSekme değiştir {} : public void switchTab(ınt switchTabNumber)"}
+{"logLevel":"debug","message":"\twait {} seconds : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\tŞu anki url {} ile aynı mı : public void doesUrlEqual(String url)"}
+{"logLevel":"debug","message":"\tOn {} element find the element with {} value : public void getElementTextFindTextContains(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementininde {} text değerini taşıyan elementi bul tıkla : public void getElementTextFindTextClick(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementininde {} text değerini taşıyan elementi bul  değerine eşit mi : public void getElementTextFindTextContains(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementinin değerini temizle : public void clearElement(String key)"}
+{"logLevel":"debug","message":"\ton {} element write {} value : public void sendKeysElement(String key, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(long seconds)"}
+{"logLevel":"debug","message":"\tclick on the {} element : public void clickElementWithCssSelector(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} uzunluğunda text değeri oluştur {} değerini {} ekle yaz : public void sendKeysRandomFormatString(String key, ınt lenght, String format, String status)"}
+{"logLevel":"debug","message":"\tClose tab : public void sekmeKapat()"}
+{"logLevel":"debug","message":"\tSekmeyi kapat : public void sekmeKapat()"}
+{"logLevel":"debug","message":"\tOn {} element find the element with {} value and click : public void getElementTextFindTextClick(String key, String expectedText)"}
+{"logLevel":"debug","message":"\t{} elementinin text değeri {} değerine eşit mi : public void getElementText(String key, String expectedText)"}
+
+
+
+
+Haz 19, 2023 2:22:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 39508
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Haz 19, 2023 2:22:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+{"logLevel":"debug","message":"Executing 'Şu anki url {} ile aynı mı' using 'class step.StepImplementation.doesUrlEqual"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementinin text değeri {} değerine eşit mi' using 'class step.StepImplementation.getElementText"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine {} uzunluğunda text değeri oluştur {} değerini {} ekle yaz' using 'class step.StepImplementation.sendKeysRandomFormatString"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine css ile tıkla' using 'class step.StepImplementation.clickElementWithCssSelector"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine {} uzunluğunda text değeri oluştur {} değerini {} ekle yaz' using 'class step.StepImplementation.sendKeysRandomFormatString"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementine css ile tıkla' using 'class step.StepImplementation.clickElementWithCssSelector"}
+
+
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class step.StepImplementation.waitBySeconds"}
+
+
+{"logLevel":"debug","message":"Executing '{} elementinin text değeri {} değerine eşit mi' using 'class step.StepImplementation.getElementText"}
+
+
+
+
+
+
+
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
